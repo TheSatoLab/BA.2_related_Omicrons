@@ -15,7 +15,6 @@ args = commandArgs(trailingOnly=T)
 download.date <- "2022-05-15"
 download.date <- as.Date(download.date)
 stan_f.name <- 'multinomial_independent.stan' #args[2]
-country.info.name <- 'country_info.txt' #args[3]
 metadata.name <- 'metadata.tsv' #args[4]
 mut.info.name <- 'metadata.mut_long.tsv'
 mut.interest <- "Spike_L452"
